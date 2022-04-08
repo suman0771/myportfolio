@@ -4,7 +4,7 @@ if(!isset($_SESSION['isUserLoggedIn'])){
   echo "<script>window.location.href='login.php';</script>";                    
 
 }
-$query = "SELECT * FROM home,section_control,social_media,about,contact,site_background,seo,admin";
+$query = "SELECT * FROM home,section_control,social_media,about,contact,site_background,seo";
 $run = mysqli_query($db,$query);
 $user_data = mysqli_fetch_array($run);
 ?>

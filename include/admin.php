@@ -303,12 +303,6 @@ if(isset($_POST['update-account'])){
   echo "<script>window.location.href='../admin/index.php?accountsetting=true';</script>";                    
 
     }
-
-
-
-
-
-
 }
 
 ?>

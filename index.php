@@ -43,7 +43,7 @@ $user_data = mysqli_fetch_array($run);
   ======================================================== -->
 </head>
 
-<body style="background:url('images/corona.jpg') top right no-repeat;">
+<body style="background:url('images/bg.jpg') top right;">
 
     <!-- ======= Header ======= -->
     <header id="header" class="header-tops">
@@ -168,8 +168,6 @@ while($personal_info = mysqli_fetch_array($run2)){
 }
 ?>
 
-
-
                             </ul>
                         </div>
 
@@ -216,13 +214,102 @@ while($skill = mysqli_fetch_array($run3)){
 
             </div>
 
-        </div><!-- End Skills -->
+        </div>
+        <!-- End Skills -->
+
+
+        <!-- ======= Languages & Tools ======= -->
+        <div class="Languages container">
+
+            <div class="section-title">
+                <h2>Languages & Tools</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <img src="images/cplusplus.png" width="20" alt="">
+                        <h3>C</h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="images/cplusplus.png" width="20" alt="">
+                        <h3>C++</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="images/html-5.png" width="20" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <img src="images/css-3.png" width="20" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/js.png" width="20" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/python.png" width="20" alt="">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-database-2-line" style="color: #11dbcf;"></i>
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/PHP.png" width="40" alt="">
+                        <h3>PHP</h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/larav.svg" width="20" alt="">
+                        <h3> Laravel</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/android.svg" width="30" alt="">
+                        <h3> Android Studio</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/android.jpg" width="20" alt="">
+                        <h3> Github</h3>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <img src="images/kotlin.png" width="20" alt="">
+                        <h3> Kotlin</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Languages & Tools -->
 
 
 
 
-
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -427,7 +514,8 @@ if($user_data['linkedin']!=''){
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-        Designed by <a href="https://www.youtube.com/channel/UCtpdZTndGnAyX-8uxUdTDnQ"> Suman Moond</a>
+        Designed by <a href="https://www.linkedin.com/in/sumanmoond
+"> Suman Moond</a>
     </div>
 
     <!-- Vendor JS Files -->
